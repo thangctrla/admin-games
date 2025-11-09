@@ -117,9 +117,9 @@ export function GameForm({ gameId }: GameFormProps) {
             {formData.img && (
               <div className="mt-3 rounded-md overflow-hidden border border-border/50">
                 <img
-                  src={formData.img || "/placeholder.svg"}
+                  src={'https://geodashlite.org/' + formData.img || "/placeholder.svg"}
                   alt="Preview"
-                  className="max-w-xs h-32 w-full object-cover"
+                  className="w[300px] h[300px] object-cover"
                 />
               </div>
             )}
